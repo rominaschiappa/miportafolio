@@ -1,0 +1,168 @@
+
+/* Estilos para el encabezado */
+header {
+    background-color: #f4f4f4;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: #FFBFCC;
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Estilos para el índice */
+  nav.index {
+    padding: 1rem 0;
+    align-content: auto;
+  }
+
+  nav.index ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  nav.index li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  nav.index li:last-child {
+    margin-right: 0;
+  }
+
+  nav.index a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #FFBFCC;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+
+  nav.index a:hover {
+    background-color: #FFBFCC;
+    color: #fff;
+  }
+
+
+  /* Estilos para las secciones de contenido */
+  .section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  .section h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 2.5 rem;
+    margin-bottom: 1rem;
+    color: #FFBFCC;
+  }
+
+  .section h1 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #FFBFCC;
+  }
+
+  .section p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .section ul, .section ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+  }
+
+  .section table {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        border: 3px solid #FFBFCC;
+      }
+      
+.section thead th:nth-child(1) {
+        width: 30%;
+      }
+      
+.section thead th:nth-child(2) {
+        width: 20%;
+      }
+      
+.section thead th:nth-child(3) {
+        width: 15%;
+      }
+      
+ .section thead th:nth-child(4) {
+        width: 35%;
+      }
+      
+ .section th, td {
+        padding: 20px;
+      }
+
+
+  h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFBFCC;
+  }
+
+body{
+  background-color: #f4f4f4;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #d8e8f4;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+    margin-bottom: 1rem;
+    font-style: oblique;
+}
+
+span{
+  color: #FFBFCC;
+  font-size: 2rem;
+}
+
+.tittle h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  font-size: 2.5 rem;
+  margin-bottom: 1rem;
+  color: ##FFBFCC;
+}
+
+  /* Estilos para el diseño responsive */
+  @media screen and (max-width: 768px) {
+    .section {
+      padding: 1rem;
+    }
+  }
